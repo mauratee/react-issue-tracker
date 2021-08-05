@@ -1,11 +1,12 @@
 import './App.css';
+import IssueItem from './components/IssueItem';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-       Issue Tracker
-      </header>
+    <div>
+        <IssueItem />
+        <IssueItem />
+        <IssueItem />
     </div>
   );
 }
