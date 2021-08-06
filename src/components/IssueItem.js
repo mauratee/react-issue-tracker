@@ -1,6 +1,7 @@
 import React from 'react'
 import './IssueItem.css'
 
+
 export default function IssueItem(props) {
     const date = props.date.toLocaleString('en-US', {dateStyle: 'short'})
     
