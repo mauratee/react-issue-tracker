@@ -1,6 +1,7 @@
 import "./App.css";
 import IssueItem from "./components/IssueItem";
 import Card from './components/Card'
+import NewIssue from "./components/NewIssue";
 
 function App() {
   const issues = [
@@ -33,6 +34,9 @@ function App() {
   return (
     <div>
       <header>Open Issue Tracker</header>
+      <Card>
+        <NewIssue />
+      </Card>
       <Card>
         <IssueItem
           id={issues[0].id}
