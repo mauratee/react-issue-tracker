@@ -4,7 +4,6 @@ import './IssueItem.css'
 
 export default function IssueItem(props) {
     const date = props.date.toLocaleString('en-US', {dateStyle: 'short'})
-
     const [description, setDescription] = useState(props.description);
 
     const clickHandler = () => {

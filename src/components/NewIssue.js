@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import './NewIssue.css'
 
 function NewIssue(props) {
   const [enteredDescription, setEnteredDescription] = useState("");
@@ -31,7 +32,7 @@ function NewIssue(props) {
   };
 
   return (
-    <div>
+    <div className="new-issue">
       <form onSubmit={submitHandler}>
         <div>
           <label>Description</label>
